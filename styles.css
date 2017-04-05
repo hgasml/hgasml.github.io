@@ -1,0 +1,76 @@
+body
+{
+	font-family: Verdana, Arial, "Times New Roman", serif;
+	font-size: 0.8em;
+}
+
+#outer { width: 100%; text-align:center;}
+#inner { width: 780px; text-align: left; margin:0px auto 0px auto; }
+#banner { width: 778px; \width: 780px; w\idth: 778px; border: #AAA solid 1px; float: none; margin:0px auto 2px auto; background: url(graphics/banner.jpg); height: 100px;} 
+
+#pagebody { width: 780px; text-align:left; border: 0px; padding: 0px; margin:0px auto 2px auto;} 
+#leftcol { width: 180px; float:left; margin-right: 2px; } 
+#maincol { width: 598px; float:left;} 
+#footer { width: 780px; margin:10px auto 2px auto; text-align:center; font-size: 0.7em; float:left; }
+
+#leftcol .panel {width: 174px; \width: 178px; w\idth: 174px; border: #AAA solid 1px; margin: 0px 0px 2px 0px; padding: 2px; }
+#maincol .panel {width: 592px; \width: 598px; w\idth: 592px; border: #AAA solid 1px; padding: 2px; margin-bottom: 2px;}
+.heading { background: url(graphics/headerbg.jpg); margin: -2px; margin-bottom: 0px; padding: 2px; font-weight:bold; border-bottom: #AAA solid 1px; margin-bottom: 2px;}
+
+#leftcol ul {margin: 0;padding: 0; list-style-type: none;}
+#leftcol li {margin: 0;padding: 0; display: inline;}
+
+#leftcol li a
+{
+	display: block;
+	width: 170px; 
+	\width: 174px; 
+	w\idth: 170px; 
+	text-decoration: none;
+	padding: 2px 2px 2px 2px; 
+	margin-left:0px;
+}
+
+#leftcol li a:hover {text-decoration: none;background-color: #EEE;	COLOR: #333;}
+
+
+#leftcol ul ul 
+{
+	width: 162px; 
+	\width: 174px; 
+	w\idth: 162px; 
+	border-left: #AAA solid 2px;
+	margin-left: 10px;
+	
+}
+#leftcol ul ul li a 
+{ 
+	display: block;
+	padding: 2px 2px 4px 2px;
+	width: 158px; 
+	\width: 162px; 
+	w\idth: 158px; 
+	margin-left:0px;
+	text-decoration: none;
+}
+/*
+#leftcol ul ul li {	margin: 0px; }
+#leftcol ul ul a.smenuitem, 
+#leftcol ul ul a.smenuitemcurrent
+{	display: block;
+	padding: 2px 2px 4px 2px;
+	width: 162px; 
+	\width: 166px; 
+	w\idth: 162px; 
+	margin-left:0px;
+	text-decoration: none;
+	background-color: #777777;
+}
+
+#leftcol ul ul a.smenuitemcurrent, #leftcol a.tmenuitemcurrent{background-color:#eeeeee; color: #585858;}
+*/
+/* end menu styles*/
+
+a { color: #333; }
+a:hover { text-decoration: underline; color: #AAA; }
+a img { border: 0px; }

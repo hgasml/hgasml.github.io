@@ -1,0 +1,135 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+   <title>Tricks for Experts &gt; Two Versions of the Same Topic &gt; 2: Create the Topic Projects</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />   
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <link type="text/css" href="styles.css" rel="stylesheet" />
+   <link type="text/css" href="custom.css" rel="stylesheet">
+
+   <style TYPE="text/css" media="screen"> 
+      html, body { margin:0; 
+             padding:0; 
+             overflow: hidden;
+             background: #FFFFFF; 
+       } 
+
+      div#printheader { display: none; }
+      #idheader { width:100%; 
+                  height:auto; 
+                  padding: 0; 
+                  margin: 0; 
+       } 
+      #idcontent { position:relative }                                               
+      #callout-table, #overview-table {display:block; position:relative; top:0; left:0;}
+      #callout-icon {display:block; position:absolute; top:-11px; left:-11px;}
+      #callout-icon-flag {display:block; position:absolute; top:-11px; left:-8px;}
+      #callout-table a {text-decoration: none; color: blue;}
+      #callout-table a:visited {text-decoration: none; color: blue;}
+      #overview-table a {text-decoration: none; color: black;}
+      #overview-table a:visited {text-decoration: none; color: black;}
+      #callout-table a:hover, #overview-table a:hover {text-decoration: underline;}      
+      #switchtoggles { text-align: right; padding: 0 5px 0 0; font-size: 90%; } 
+      p.help-url { margin: 20px 0 5px 0; text-align: center; font-size: 80%; text-decoration: none }
+   </style>
+   <noscript>
+   <style type="text/css">
+   html, body { overflow: auto; }
+   </style> 
+   </noscript>
+   <style type="text/css" media="print">
+      span.f_Heading1 { color: black; }
+      #idheader, #printheader img { display:none; }
+      #printheader { display: block; margin-top: 20px; }
+      #idcontent { margin-top: 10px; position:relative }
+   </style>   
+
+   <script type="text/javascript" src="jquery.js"></script>
+   <script type="text/javascript" src="helpman_settings.js"></script>
+   <script type="text/javascript" src="helpman_topicinit.js"></script>
+   <script type="text/javascript" src="nsh.js"></script>
+
+   <script type="text/javascript">
+     HMSyncTOC("index.html", "twoversions2.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+<body>
+<div id="breadcrumbs" style="display:none">Tricks for Experts &gt; <a href="twoversions.htm">Two Versions of the Same Topic</a></div>
+
+<div id="printheader"><h1 class="p_Heading1"><span class="f_Heading1">2: Create the Topic Projects</span></h1>
+</div>
+<div id="idheader">
+<div id="idheaderbg">
+<table style="width:100%;border:none;margin:0px;background:url(background-topic-header.jpg)" cellspacing="0" cellpadding="0"> 
+  <tr valign="bottom">
+    <td align="left" valign="bottom" class="topichead">
+   <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+   
+   Tricks for Experts &gt; <a href="twoversions.htm">Two Versions of the Same Topic</a>&nbsp;&gt;</p>
+   <h1 class="p_Heading1"><span class="f_Heading1">2: Create the Topic Projects</span></h1>
+
+    </td>
+    <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+    
+     <a href="twoversions1.htm"
+        onmouseover="document.images.prev.src='hm_btn_navigate_prev_orange.png'" 
+        onmouseout="document.images.prev.src='hm_btn_navigate_prev.png'"
+        ><img name="prev" src="hm_btn_navigate_prev.png" border=0 alt="Previous page"
+        ></a><a href="twoversions.htm"
+        onmouseover="document.images.main.src='hm_btn_navigate_top_orange.png'" 
+        onmouseout="document.images.main.src='hm_btn_navigate_top.png'"><img name=main src="hm_btn_navigate_top.png" border=0 alt="Return to chapter overview"
+        ></a><a href="twoversions3.htm"
+        onmouseover="document.images.next.src='hm_btn_navigate_next_orange.png'" 
+        onmouseout="document.images.next.src='hm_btn_navigate_next.png'"><img name=next src="hm_btn_navigate_next.png" border=0 alt="Next page"
+        ></a>
+    </td>
+  </tr>  
+</table>
+<!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+  
+</div>
+</div>  
+
+<div id="idcontent"><div id="innerdiv">
+<!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser --> 
+<!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+
+<!--ZOOMRESTART-->
+<p>Next you need to create an entire Help &amp; Manual project for each version of the topic. In this tutorial the two projects are called <span class="f_T_Menu">Full_Version.hmxz</span> and <span class="f_T_Menu">Demo_Version.hmxz</span> (it is best to use the HMXZ single-file compressed format for these projects since they only contain a single topic). </p>
+<p>Both child projects will contain <span style="text-decoration: underline;">only one topic</span> with the topic ID <span class="f_T_Entry">ReadMe</span> and will also have defined custom text variables. The first child only gets merged when you publish with the include option <span class="f_T_Entry">Full Build</span>, the second only when you publish with the include option <span class="f_T_Entry">Demo Build</span>. </p>
+<p>The result is that we never have both help projects together (if you attempt to do so, you will get conflicting topic IDs).</p>
+<p class="p_HeadingHowTo"><span class="f_HeadingHowTo">Step 1: Create the topic projects</span></p>
+<p style="text-align: left; padding: 0px 0px 0px 24px; margin: 0px 0px 10px 24px;"><span style="font-weight:bold; font-size:15px; font-family: 'Arial';color:#000000;display:inline-block;width:24px;margin-left:-24px">1.</span><span class="f_HowToNumbered">Create two new projects and save them in the project directory of your main project.</span><span class="f_HowToNumbered" style="font-weight: bold;"> </span></p><p style="text-align: left; padding: 0px 0px 0px 24px; margin: 0px 0px 10px 24px;"><span style="font-weight:bold; font-size:15px; font-family: 'Arial';color:#000000;display:inline-block;width:24px;margin-left:-24px">2.</span><span class="f_HowToNumbered">In each project create just one topic. The topic ID of this project must be identical in both projects. In this example we are using the ID </span><span class="f_HowToNumbered" style="font-style: italic;">ReadMe</span><span class="f_HowToNumbered">.</span></p><p style="text-align: left; padding: 0px 0px 0px 24px; margin: 0px 0px 10px 24px;"><span style="font-weight:bold; font-size:15px; font-family: 'Arial';color:#000000;display:inline-block;width:24px;margin-left:-24px">3.</span><span class="f_HowToNumbered">If you are using styles import the styles of your main project to the new projects. To do this select </span><span class="f_HowToNumbered" style="font-style: italic;">Styles &gt; Edit Styles</span><span class="f_HowToNumbered"> in the </span><span class="f_T_Menu">Write</span><span class="f_HowToNumbered"> tab and then select </span><span class="f_HowToNumbered" style="font-style: italic;">Copy Styles From</span><span class="f_HowToNumbered"> to copy the styles from your main project. </span></p><p style="text-align: left; padding: 0px 0px 0px 24px; margin: 0px 0px 10px 24px;"><span style="font-weight:bold; font-size:15px; font-family: 'Arial';color:#000000;display:inline-block;width:24px;margin-left:-24px">4.</span><span class="f_HowToNumbered">Enter the content of the topics in the two projects and save the projects.</span></p><p class="p_HeadingHowTo"><span class="f_HeadingHowTo">Step 2: Add individual variables to the projects </span><span class="f_HeadingHowTo" style="font-style: italic;">(Optional)</span></p>
+<p class="p_HowToBody"><span class="f_HowToBody">If you add variables to the projects you can use them in your entire project and their definitions will change automatically depending on which child project you are using. You can then also use the variables in the master project and in any other projects merged into the final help.</span></p>
+<p style="text-align: left; padding: 0px 0px 0px 24px; margin: 0px 0px 10px 24px;"><span style="font-weight:bold; font-size:15px; font-family: 'Arial';color:#000000;display:inline-block;width:24px;margin-left:-24px">1.</span><span class="f_HowToNumbered">Open each project and define your variables. Only use variables that have not been defined in the master project or any other project you are going to merge into the master project at the same time!</span><span class="f_HowToNumbered" style="font-weight: bold;"> </span></p><p style="text-align: left; padding: 0px 0px 0px 24px; margin: 0px 0px 10px 24px;"><span style="font-weight:bold; font-size:15px; font-family: 'Arial';color:#000000;display:inline-block;width:24px;margin-left:-24px">2.</span><span class="f_HowToNumbered">When you use the variables in the master project or other projects in your help system you must type them in manually, using the syntax </span><span class="f_T_Code">&lt;%VARIABLE_NAME%&gt;.</span></p><p class="p_HowToBody"><span class="f_HowToBody">This method should only be used if you are going to be swapping out child projects anyway. For &nbsp;more efficient methods for redefining variables see the chapters on Command Line Options and Variables in the main Help &amp; Manual help (in the More Advanced Procedures section).</span></p>
+<p class="p_HowToBody"><span class="f_HowToBody">Note that you can also redefine variables for individual topics in the Topic Options tab behind the main editor window. </span></p>
+<p class="p_HeadingHowTo"><span class="f_HeadingHowTo">Step 3: Add the child projects to your main project</span></p>
+<p style="text-align: left; padding: 0px 0px 0px 24px; margin: 0px 0px 10px 24px;"><span style="font-weight:bold; font-size:15px; font-family: 'Arial';color:#000000;display:inline-block;width:24px;margin-left:-24px">1.</span><span class="f_HowToNumbered">Open your main project and select the position in your TOC where you want the topic to go.</span><span class="f_HowToNumbered" style="font-weight: bold;"> </span></p><p style="text-align: left; padding: 0px 0px 0px 24px; margin: 0px 0px 10px 24px;"><span style="font-weight:bold; font-size:15px; font-family: 'Arial';color:#000000;display:inline-block;width:24px;margin-left:-24px">2.</span><span class="f_HowToNumbered">Select </span><span class="f_HowToNumbered" style="font-style: italic;">Add Topic</span><span class="f_HowToNumbered"> in </span><span class="f_T_Menu">Project &gt; Manage Topics</span><span class="f_HowToNumbered"> and select the option </span><span class="f_HowToNumbered" style="font-style: italic;">Include a Help Project. </span></p><p style="text-align: left; padding: 0px 0px 0px 24px; margin: 0px 0px 10px 24px;"><span style="font-weight:bold; font-size:15px; font-family: 'Arial';color:#000000;display:inline-block;width:24px;margin-left:-24px">3.</span><span class="f_HowToNumbered">Select the option </span><span class="f_HowToNumbered" style="font-style: italic;">Merge content on publishing</span><span class="f_HowToNumbered"> – runtime merging would not work because you want the topic from the external project to be part of the project.</span></p><p class="p_HowToBody" style="margin: 0px 0px 10px 48px;"><img src="merge_options.png" width="32" height="32" alt="" style="border:none" /></p>
+<p style="text-align: left; padding: 0px 0px 0px 24px; margin: 0px 0px 10px 24px;"><span style="font-weight:bold; font-size:15px; font-family: 'Arial';color:#000000;display:inline-block;width:24px;margin-left:-24px">4.</span><span class="f_HowToNumbered">Select the first project you created in Step 1 above, then repeat for the second project, so that both projects are inserted directly above one another in the TOC.</span></p><p class="p_HowToBody"><span class="f_HowToBody">You can see what it's supposed to look like in this tutorial project. Here the two projects </span><span class="f_T_Code">Full_Version.hmxz</span><span class="f_HowToBody"> and </span><span class="f_T_Code">Demo_Version.hmxz</span><span class="f_HowToBody"> have been inserted at the end of this chapter.</span></p>
+<p class="p_HeadingHowTo"><span class="f_HeadingHowTo">Step 4: Set the build options for the child projects</span></p>
+<p class="p_HowToBody"><span class="f_HowToBody">In your main project, select the main project entry of the first child project in the TOC. Then select </span><span class="f_HowToBody" style="font-style: italic;">Change &gt; Include in Builds</span><span class="f_HowToBody"> in </span><span class="f_T_Menu">Project &gt; Manage Topics</span><span class="f_HowToBody"> and set the appropriate the build option for the project. (You can also right-click on the main project entry to access the build options.)</span></p>
+<p class="p_HowToBody"><span class="f_HowToBody">Repeat for the other child project (and for any others you may have created). </span></p>
+<p class="p_HowToBody"><span class="f_HowToBody" style="font-weight: bold;">Important: </span><br />
+<span class="f_HowToBody">ONLY select the </span><span class="f_HowToBody" style="text-decoration: underline;">one</span><span class="f_HowToBody"> custom build option for each topic, DON'T select any additional format-based build options. Since the build options use OR logic the projects would then always be included, defeating the object of this exercise.</span></p>
+
+<!--ZOOMSTOP-->
+</div></div>
+<script type="text/javascript">
+
+var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+if( document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh" )
+{
+ if (document.all) setTimeout(function() {nsrInit();},20); 
+    else nsrInit();
+ } 
+
+
+</script>
+</body>
+</html>
