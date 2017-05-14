@@ -7,54 +7,54 @@ RCLIB.DLL
 NewVer.exe
 
 [AutoRUN.exe]
-Description~0=Автозапуск
+Description~0=ГЂГўГІГ®Г§Г ГЇГіГ±ГЄ
 Ver~0=1.0.0.1
 Files~0=1
 File1~0=AutoRUN.exe
-History~0=  Версия 1.0.0.1
-History~1=Текущая версия
-History~2=  Версия 0.0.0.1
-History~3=Начальная версия
+History~0=  Г‚ГҐГ°Г±ГЁГї 1.0.0.1
+History~1=Г’ГҐГЄГіГ№Г Гї ГўГҐГ°Г±ГЁГї
+History~2=  Г‚ГҐГ°Г±ГЁГї 0.0.0.1
+History~3=ГЌГ Г·Г Г«ГјГ­Г Гї ГўГҐГ°Г±ГЁГї
 
 [BaseNote.exe]
-Description~0=Файл программы 
-Ver~0=2.0.2.18
+Description~0=Г”Г Г©Г« ГЇГ°Г®ГЈГ°Г Г¬Г¬Г» 
+Ver~0=2.0.2.17
 Files~0=2
 File1~0=BaseNote.exe
 File2~0=codlib.dll
-History~0=  Версия 2.0.2.18
-History~1=Текущая версия
+History~0=  Г‚ГҐГ°Г±ГЁГї 2.0.2.18
+History~1=Г’ГҐГЄГіГ№Г Гї ГўГҐГ°Г±ГЁГї
 
 [DirComp.exe]
-Description~0=Файл программы
+Description~0=Г”Г Г©Г« ГЇГ°Г®ГЈГ°Г Г¬Г¬Г»
 Ver~0=1.0.0.1
 Files~0=1
 File1~0=DirComp.exe
-History~0=  Версия 1.0.0.1
-History~1=Текущая версия
+History~0=  Г‚ГҐГ°Г±ГЁГї 1.0.0.1
+History~1=Г’ГҐГЄГіГ№Г Гї ГўГҐГ°Г±ГЁГї
 
 [EditLib.DLL]
-Description~0=Файл программы
+Description~0=Г”Г Г©Г« ГЇГ°Г®ГЈГ°Г Г¬Г¬Г»
 Ver~0=1.0.5.3
 Files~0=1
 File1~0=EditLib.DLL
-History~0=  Версия 1.0.5.3
-History~1=Текущая версия
+History~0=  Г‚ГҐГ°Г±ГЁГї 1.0.5.3
+History~1=Г’ГҐГЄГіГ№Г Гї ГўГҐГ°Г±ГЁГї
 
 [RCLIB.DLL]
-Description~0=Файл программы
+Description~0=Г”Г Г©Г« ГЇГ°Г®ГЈГ°Г Г¬Г¬Г»
 Ver~0=1.0.1.2
 Files~0=1
 File1~0=DirComp.exe
-History~0=  Версия 1.0.1.2
-History~1=Текущая версия
+History~0=  Г‚ГҐГ°Г±ГЁГї 1.0.1.2
+History~1=Г’ГҐГЄГіГ№Г Гї ГўГҐГ°Г±ГЁГї
 
 [NewVer.exe]
-Description~0=Обновление базы данных
+Description~0=ГЋГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ ГЎГ Г§Г» Г¤Г Г­Г­Г»Гµ
 Ver~0=0.0.0.2
 Files~0=3
 File1~0=NewVer\NewVer.bdf
 File1~1=NewVer\NewVer.exe
 File1~2=NewVer\Transport.exe
-History~0=  Версия 0.0.0.2
-History~1=Текущая версия
+History~0=  Г‚ГҐГ°Г±ГЁГї 0.0.0.2
+History~1=Г’ГҐГЄГіГ№Г Гї ГўГҐГ°Г±ГЁГї
