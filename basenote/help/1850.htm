@@ -1,0 +1,987 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+   <title>Модель программы &gt; Таблицы, описание полей в таблицах</title>
+   <meta name="generator" content="Georg Smail Present" />
+   <meta name="keywords" content="(int),(str)" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />   
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+   <link type="text/css" href="custom.css" rel="stylesheet">
+
+   <style TYPE="text/css" media="screen"> 
+      html, body { margin:0; 
+             padding:0; 
+             overflow: hidden;
+             background: #FFFFFF; 
+       } 
+
+      div#printheader { display: none; }
+      #idheader { width:100%; 
+                  height:auto; 
+                  padding: 0; 
+                  margin: 0; 
+       } 
+      #idcontent { position:relative }                                               
+      #callout-table, #overview-table {display:block; position:relative; top:0; left:0;}
+      #callout-icon {display:block; position:absolute; top:-11px; left:-11px;}
+      #callout-icon-flag {display:block; position:absolute; top:-11px; left:-8px;}
+      #callout-table a {text-decoration: none; color: blue;}
+      #callout-table a:visited {text-decoration: none; color: blue;}
+      #overview-table a {text-decoration: none; color: black;}
+      #overview-table a:visited {text-decoration: none; color: black;}
+      #callout-table a:hover, #overview-table a:hover {text-decoration: underline;}      
+      #switchtoggles { text-align: right; padding: 0 5px 0 0; font-size: 90%; } 
+      p.help-url { margin: 20px 0 5px 0; text-align: center; font-size: 80%; text-decoration: none }
+   </style>
+   <noscript>
+   <style type="text/css">
+   html, body { overflow: auto; }
+   </style> 
+   </noscript>
+   <style type="text/css" media="print">
+      span.f_Heading1 { color: black; }
+      #idheader, #printheader img { display:none; }
+      #printheader { display: block; margin-top: 20px; }
+      #idcontent { margin-top: 10px; position:relative }
+   </style>   
+
+   <script type="text/javascript" src="jquery.js"></script>
+   <script type="text/javascript" src="helpman_settings.js"></script>
+   <script type="text/javascript" src="helpman_topicinit.js"></script>
+   <script type="text/javascript" src="nsh.js"></script>
+
+   <script type="text/javascript">
+     HMSyncTOC("index.html", "1850.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+<body>
+<div id="breadcrumbs" style="display:none"><a href="1600.htm">Модель программы</a></div>
+
+<div id="printheader"><h1 class="p_Heading1"><span class="f_Heading1">Таблицы, описание полей в таблицах</span></h1>
+</div>
+<div id="idheader">
+<div id="idheaderbg">
+<table style="width:100%;border:none;margin:0px;background:url(background-topic-header.jpg)" cellspacing="0" cellpadding="0"> 
+  <tr valign="bottom">
+    <td align="left" valign="bottom" class="topichead">
+   <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+   
+   <a href="1600.htm">Модель программы</a>&nbsp;&gt;</p>
+   <h1 class="p_Heading1"><span class="f_Heading1">Таблицы, описание полей в таблицах</span></h1>
+
+    </td>
+    <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+    
+     <a href="1600.htm"
+        onmouseover="document.images.prev.src='hm_btn_navigate_prev_orange.png'" 
+        onmouseout="document.images.prev.src='hm_btn_navigate_prev.png'"
+        ><img name="prev" src="hm_btn_navigate_prev.png" border=0 alt="Previous page"
+        ></a><a href="1600.htm"
+        onmouseover="document.images.main.src='hm_btn_navigate_top_orange.png'" 
+        onmouseout="document.images.main.src='hm_btn_navigate_top.png'"><img name=main src="hm_btn_navigate_top.png" border=0 alt="Return to chapter overview"
+        ></a><a href="1500.htm"
+        onmouseover="document.images.next.src='hm_btn_navigate_next_orange.png'" 
+        onmouseout="document.images.next.src='hm_btn_navigate_next.png'"><img name=next src="hm_btn_navigate_next.png" border=0 alt="Next page"
+        ></a>
+    </td>
+  </tr>  
+</table>
+<!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+  
+</div>
+</div>  
+
+<div id="idcontent"><div id="innerdiv">
+<!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser --> 
+<!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+
+<!--ZOOMRESTART-->
+<p style="text-align: center; margin: 13px 0px 0px 0px;"><span style="font-size: 12pt; font-family: Cambria; color: #4f81bd;">Описание полей базы данных</span></p>
+<p>&nbsp;</p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_0</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: основная таблица хранения данных.</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table style="width:853px; border:none; border-spacing:0px; border-collapse:collapse;">
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p style="text-align: center;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Поле</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p style="text-align: center;"><span style="font-size: 12pt; font-family: 'Times New Roman';">тип</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p style="text-align: center;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Название</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p style="text-align: center;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Id</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">число</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Id</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Идентификатор записи.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">DDEID</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">число</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">DDEID</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Номер, по которому можно осуществить связь с другими записями </span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #ff0000;">SVEIZM</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">memo</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Каталог</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Множественная принадлежность объекта к древовидному каталог. Таблица «</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_TRM</span><span style="font-size: 12pt; font-family: 'Times New Roman';">».</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">SecondNum</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">число</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">№ п.п.</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Порядковый номер записи в базе данных, определяется пользователем.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">NameTopic</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">str[180]</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Краткое описание</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Содержит краткое описание объекта в одну строку.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #ff0000;">RUBRIKS</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">memo</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Рубрики</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Множественные рубрики объекта. Таблица «</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_rub</span><span style="font-size: 12pt; font-family: 'Times New Roman';">».</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Top</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">число</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Уровень</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Уровень информации.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">HupperFile</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">str[100]</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Файл информации</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Путь к информационному объекту. Например - &quot;C:\BASE\MyInfo\Huper.gsm&quot;.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">AllFile</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">str[80]</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Второе название</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Возможность присвоить информационному файлу ВТОРОЕ (длинное) имя или ключевые слова для поиска. Например - &quot;Информация доступ сеть технология&quot;. Применяется для дополнительного поиска.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #ff0000;">MESTOM</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">memo</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Организация</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Название организаций или мест издания объекта. Таблица «</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_Org».</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">YearIzd</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">datetime</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Дата издания</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Дата издания.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #ff0000;">BAZAM</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">memo</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Место хранения</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">множественное место хранения информации. Таблица «</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_Bzp</span><span style="font-size: 12pt; font-family: 'Times New Roman';">».</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">ToDey</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">datetime</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Дата записи</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Время регистрации (последних изменений). Поле не доступно для изменения.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">IdencFile</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">int</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Тип файла</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Определяет тип информационного файла. Например - &quot;Звуковой файл.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Size_</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">int</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Размер файла</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">показывает размер объекта в килобайтах. Название поля для отображения - 'Размер файла'.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Invent</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">str[15]</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Инв. №</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">инвентарный номер объекта в формате пользователя. Например - поле может иметь вид - &quot;12.36.45&quot;.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Shifr</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">str[15]</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Шифр</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">шифр объекта в формате пользователя. Например - поле может иметь вид - &quot;ЗАК,23.AG 34&quot;, &quot;DVD&quot;, &quot;HDTV.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Str</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">int</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Страниц</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">число страниц объекта (условно).</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">DtBegin</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">datetime</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Исполнить от</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">начальную дату исполнения объекта.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">DtEnd</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">datetime</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Исполнить до</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">конечную дату исполнения объекта.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Hou</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">datetime</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Хранить до</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">дату хранения объекта в базе данных.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">PERCENTDO</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">int</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Процент</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">процент выполнения задачи.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">VSBL</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">bool</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><br />
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">видимость записи.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #ff0000;">VLADM</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">memo</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><br />
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">владелец объекта. Таблица «</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_man».</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">CENA</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">real</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Цена</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">цена товара (объекта).</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">PCENA</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">str[10]</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Валюта</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Размерность цены. Поле может иметь вид &quot;у.е.&quot;</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">MCENA</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">str[50]</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Единица товара</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">размерность единицы для цены. Например - за 1 метр.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">NALOG</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">str[100]</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Налог на товар</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">дополнительное разъяснение к цене. Например - Налог на товар +21%.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">DISCOUNT</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">int</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Скидка по товару</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">скидка (проценты).</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">RESERVE</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">int</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Осталось на складе</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">резервное поле.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">AboutR</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">blob</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">О чем</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">описание объекта в формате Rich Текста.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">About</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">memo</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">О чем</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">перевод поля описания в форма TXT. Поле не доступно для изменения пользователем. Название поля для отображения - '</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">About</span><span style="font-size: 12pt; font-family: 'Times New Roman';">'.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Pic</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">blob</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">Этикетка</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">графический рисунок (этикетка) прикрепленный к объекту.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">AboutR2</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">blob</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">AboutR2</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">отображение полей в записи.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">IDTMP</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">int</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">IDTMP</span></p>
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">связи с системой расширения информационных характеристик. В программе предусмотрена возможность добавления новых характеристик объекта.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">EXTRSD</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">memo</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><br />
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">параметры записи.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">EXTRUB</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">memo</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><br />
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">параметры записи.</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:138px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">EXTTREERSD</span></p>
+</td>
+<td style="vertical-align:top; width:84px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">memo</span></p>
+</td>
+<td style="vertical-align:top; width:140px; height:37px; padding:4px; border:solid 1px #000000;"><br />
+</td>
+<td style="vertical-align:top; width:419px; height:37px; padding:4px; border:solid 1px #000000;"><p><span style="font-size: 12pt; font-family: 'Times New Roman';">параметры записи.</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p>&nbsp;</p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица - </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">PARAMS</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: хранение параметров для базы данных.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID –</span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">CAPDB </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[55]) – префикс для поиска параметров;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">CAPDBL</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> – (str[55]) – название базы данных;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">PARA </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (blob) – параметр 1;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">PARD </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (blob) – параметр 2;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">PARG </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (blob) – параметр 3;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">PARS </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (blob) – &nbsp;параметр 4;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">PARV </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (blob) – параметр 5;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold; color: #ff0000;">RPARA </span><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #ff0000;">– (blob) – параметр шрифта таблицы в формате </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold; color: #ff0000;">gsIsPocket</span><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #ff0000;">;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold; color: #ff0000;">RPARD </span><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #ff0000;">– (blob) – параметр шрифта таблицы в формате </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold; color: #ff0000;">gsIsPocket</span><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #ff0000;">;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold; color: #ff0000;">RPARG </span><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #ff0000;">– (blob) – параметр шрифта таблицы в формате </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold; color: #ff0000;">gsIsPocket</span><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #ff0000;">;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold; color: #ff0000;">RPARS </span><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #ff0000;">– (blob) – параметр шрифта таблицы в формате </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold; color: #ff0000;">gsIsPocket</span><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #ff0000;">;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold; color: #ff0000;">RPARV </span><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #ff0000;">– (blob) – параметр шрифта таблицы в формате </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold; color: #ff0000;">gsIsPocket</span><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #ff0000;">;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">PARL – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(blob) – параметр</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">RPARL </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (blob) – параметр</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_Dlg</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: хранение названий должностей пользователя.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID –</span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">DDEID </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – дополнительное поле связи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Cou </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – порядковый номер записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">SNUM </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – не используется;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">FNAME </span><span style="font-size: 12pt; font-family: 'Times New Roman';">–(str[100]) - описание названия;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_Bzp</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: список мест, где хранится информация.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID –</span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">DDEID </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – дополнительное поле связи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">SNUM </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – не используется;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Cou </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – порядковый номер записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-family: 'Times New Roman'; font-weight: bold;">FNAME </span><span style="font-family: 'Times New Roman';">–(str[100]) - описание названия;</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_Images</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: депозитарий мини изображений (этикеток).</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID –</span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">DDEID </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – дополнительное поле связи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Cou </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – порядковый номер записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ImHint -</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> (str[50]) – описание изображения</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ImPic - </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(blob) – изображение в формате JPEG;</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_man</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: таблица владельцев информации.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">DDEID </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – дополнительное поле связи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">COU </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – порядковый номер записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Avtor </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[50]) – псевдоним владельца информации;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">FamilyVl </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[50]) – фамилия владельца информации;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">NameVl </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[50]) – имя владельца информации;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">OtchVl </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[50]) - отчество владельца информации;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">DateRjVl </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (date) – дата рождения владельца информации;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold; color: #bfbfbf;">DolgVl –</span><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #bfbfbf;"> (int) </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold; color: #bfbfbf;">–</span><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #bfbfbf;"> должность владельца информации;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold; color: #ff0000;">DolgVlM</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> -</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> (Memo)</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> –</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> должность владельца информации база &quot;Base_Dlg&quot;;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold; color: #bfbfbf;">OrganizVl –</span><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #bfbfbf;"> (int) </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold; color: #bfbfbf;">–</span><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #bfbfbf;"> организация владельца информации;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold; color: #ff0000;">OrganizVlM</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> –</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> (Memo) </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">–</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> организация владельца информации база &quot;Base_Org&quot;;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">RabTelVl </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[50]) – рабочий телефон;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">DomTelVl </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[50]) – домашний телефон;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">FaxVl </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[50]) – E mail;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">AvtorPic </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (blob) – фотография владельца информации;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Aboutr </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (blob) – дополнительное описание в формате Rich;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">About </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (Memo) – описание в формате Text;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Settings </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (Memo) – параметры записи.</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_Org</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: определяет список организаций.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">DDEID </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – дополнительное поле связи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">SNUM</span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – поле - ссылка древовидной структуры;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Cou</span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – порядковый номер записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">FNAME </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[100]) – полное имя организации;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">LNAME </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[20]) – сокращенное имя организации;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">CDATE </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (date) – ???</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">WIDTH </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – длинна квадрата отображения;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">HEIGHT </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – высота квадрата отображения;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">TYPE </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – тип отображения Rectange, Round Rect, Ellipse, Diamond;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">COLOR </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – цвет отображения;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">IMAGE </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – логотип организации;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">IMAGEALIGN </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – выравнивание логотипа;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ALIGN </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – выравнивание названия;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">SHOWINLIST </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (bool) – отображать организацию;</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> Base_Rub</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: основной рубрикатор информационного ресурса;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">DDEID </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – дополнительное поле связи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">SNUM </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – не используется;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Cou </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – порядковый номер записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">FNAME </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[100]) – название рубрики;</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> Base_TRM</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: древовидное представление тем и разделов.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">DDEID </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – дополнительное поле связи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">SNUM </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – поле древовидного представления;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">COU </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – порядковый номер записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ICO1 –</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> (blob) – иконка - нет выбора ветки.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ICO2 –</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> (blob) – иконка - выбор ветки</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ICO3 –</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> (blob) – иконка - нет выбора директории</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ICO4 –</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> (blob) – иконка - выбор директории</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ICO5 –</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> (blob) – иконка - </span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ICO6 –</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> (blob) – иконка - </span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">FNAME </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[100]) – полное имя организации;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">LNAME </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[20]) – сокращенное имя организации;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">CDATE </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (date) – ???</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">WIDTH </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – длинна квадрата отображения;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">HEIGHT </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – высота квадрата отображения;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">TYPE </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – тип отображения;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">COLOR </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – цвет отображения;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">IMAGE </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – логотип организации;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">IMAGEALIGN </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – выравнивание логотипа;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ALIGN </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – выравнивание названия;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">SHOWINLIST </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (bool) – отображать организацию ???;</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> Base_P</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: определяет список программ для запуска документов.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">DDEID </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – дополнительное поле связи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">SNUM </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – порядковый номер записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">PGNAME </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[100]) – полный путь к программе запуска;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">DOPPAR </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[100]) –дополнительные параметры запуска;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">DILATION -</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> (Memo) - список расширений файлов в строки</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_Typ</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: список типов информационного ресурса;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">DDEID </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – дополнительное поле связи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">SNUM </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – не использую;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Cou </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – порядковый номер записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">FNAME </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[100]) – название типа.</span></p>
+<p style="text-indent: 71px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">первые 9 типов постоянные:</span></p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table style="border:none; border-spacing:0px; border-collapse:collapse;">
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:21px; padding:4px; border:solid 1px #000000;"><p style="text-align: center; margin: 0px -1px 0px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">ID</span></p>
+</td>
+<td style="vertical-align:top; width:36px; padding:4px; border:solid 1px #000000;"><p style="text-align: center; text-indent: 2px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Cou</span></p>
+</td>
+<td style="vertical-align:top; width:528px; padding:4px; border:solid 1px #000000;"><p style="text-align: center; text-indent: 3px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">FNAME</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:21px; padding:4px; border:solid 1px #000000;"><p style="text-align: center;"><span style="font-size: 12pt; font-family: 'Times New Roman';">1</span></p>
+</td>
+<td style="vertical-align:top; width:36px; padding:4px; border:solid 1px #000000;"><p style="text-align: center; text-indent: 2px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">1</span></p>
+</td>
+<td style="vertical-align:top; width:528px; padding:4px; border:solid 1px #000000;"><p style="text-indent: 3px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">По определению ОС</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:21px; padding:4px; border:solid 1px #000000;"><p style="text-align: center;"><span style="font-size: 12pt; font-family: 'Times New Roman';">2</span></p>
+</td>
+<td style="vertical-align:top; width:36px; padding:4px; border:solid 1px #000000;"><p style="text-align: center; text-indent: 2px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">2</span></p>
+</td>
+<td style="vertical-align:top; width:528px; padding:4px; border:solid 1px #000000;"><p style="text-indent: 3px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Директория</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:21px; padding:4px; border:solid 1px #000000;"><p style="text-align: center;"><span style="font-size: 12pt; font-family: 'Times New Roman';">3</span></p>
+</td>
+<td style="vertical-align:top; width:36px; padding:4px; border:solid 1px #000000;"><p style="text-align: center; text-indent: 2px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">3</span></p>
+</td>
+<td style="vertical-align:top; width:528px; padding:4px; border:solid 1px #000000;"><p style="text-indent: 3px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Информация</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:21px; padding:4px; border:solid 1px #000000;"><p style="text-align: center;"><span style="font-size: 12pt; font-family: 'Times New Roman';">4</span></p>
+</td>
+<td style="vertical-align:top; width:36px; padding:4px; border:solid 1px #000000;"><p style="text-align: center; text-indent: 2px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">4</span></p>
+</td>
+<td style="vertical-align:top; width:528px; padding:4px; border:solid 1px #000000;"><p style="text-indent: 3px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Файлы (*.GSM)</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:21px; padding:4px; border:solid 1px #000000;"><p style="text-align: center;"><span style="font-size: 12pt; font-family: 'Times New Roman';">5</span></p>
+</td>
+<td style="vertical-align:top; width:36px; padding:4px; border:solid 1px #000000;"><p style="text-align: center; text-indent: 2px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">5</span></p>
+</td>
+<td style="vertical-align:top; width:528px; padding:4px; border:solid 1px #000000;"><p style="text-indent: 3px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Текст в формате DOS</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:21px; padding:4px; border:solid 1px #000000;"><p style="text-align: center;"><span style="font-size: 12pt; font-family: 'Times New Roman';">6</span></p>
+</td>
+<td style="vertical-align:top; width:36px; padding:4px; border:solid 1px #000000;"><p style="text-align: center; text-indent: 2px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">6</span></p>
+</td>
+<td style="vertical-align:top; width:528px; padding:4px; border:solid 1px #000000;"><p style="text-indent: 3px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Текст в формате WIN</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:21px; padding:4px; border:solid 1px #000000;"><p style="text-align: center;"><span style="font-size: 12pt; font-family: 'Times New Roman';">7</span></p>
+</td>
+<td style="vertical-align:top; width:36px; padding:4px; border:solid 1px #000000;"><p style="text-align: center; text-indent: 2px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">7</span></p>
+</td>
+<td style="vertical-align:top; width:528px; padding:4px; border:solid 1px #000000;"><p style="text-indent: 3px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Текст в формате RICH</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:21px; padding:4px; border:solid 1px #000000;"><p style="text-align: center;"><span style="font-size: 12pt; font-family: 'Times New Roman';">8</span></p>
+</td>
+<td style="vertical-align:top; width:36px; padding:4px; border:solid 1px #000000;"><p style="text-align: center; text-indent: 2px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">8</span></p>
+</td>
+<td style="vertical-align:top; width:528px; padding:4px; border:solid 1px #000000;"><p style="text-indent: 3px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Звуковой файл (*.WAV;*.MID)</span></p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; width:21px; padding:4px; border:solid 1px #000000;"><p style="text-align: center;"><span style="font-size: 12pt; font-family: 'Times New Roman';">9</span></p>
+</td>
+<td style="vertical-align:top; width:36px; padding:4px; border:solid 1px #000000;"><p style="text-align: center; text-indent: 2px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">9</span></p>
+</td>
+<td style="vertical-align:top; width:528px; padding:4px; border:solid 1px #000000;"><p style="text-indent: 3px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Файл Мультимедиа (*.AVI;*.MOV;*.MPG)</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_Usr</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: список пользователей программы. Пользователи </span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">DDEID </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – дополнительное поле связи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">SNUM </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – </span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Cou </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – порядковый номер записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">FNAME </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[50]) – имя пользователя;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Pasw </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[50]) – пароль пользователя;</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">BASETMP</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: таблица для сохранения характеристик таблиц данных.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">COU </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – порядковый номер записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">IDMAIN </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – поле внутренних связей записей таблицы;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">IDBACK </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) –</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">INFO </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[40]) – краткое описание назначения служебной таблицы;</span></p>
+<p style="text-indent: -165px; margin: 0px 0px 0px 213px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">EXTA </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (memo) – служебные параметры для отображения данных в информационной программе и отчетных документах</span></p>
+<p style="text-indent: -165px; margin: 0px 0px 0px 213px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">EXTF </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (blob) – для сохранения разработанной формы в виде бинарных ресурсных данных;</span></p>
+<p style="text-indent: -165px; margin: 0px 0px 0px 213px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">EXTFV </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (blob) – для сохранения разработанной формы в виде бинарных ресурсных данных</span></p>
+<p style="text-indent: -165px; margin: 0px 0px 0px 213px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">EXTP </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (blob) – для сохранения разработанной формы в виде бинарных ресурсных данных</span></p>
+<p style="text-indent: -165px; margin: 0px 0px 0px 213px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">EXTPV </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (blob) – для сохранения разработанной формы в виде бинарных ресурсных данных</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">BASETMP</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: таблица шаблонов описания.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">COU </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – порядковый номер записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">IDMAIN </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – поле внутренних связей записей таблицы;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">CAPT </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[150]) – краткое описание назначения служебной таблицы;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">AboutR </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (blob) – текст шаблона.</span></p>
+<p style="text-indent: -165px; margin: 0px 0px 0px 213px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">About </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (memo) – служебные параметры для отображения данных в информационной программе и отчетных документах</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ICON </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (blob) – иконка.</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Bookmarks</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: записи отдельной закладки для формы закладок определенного пользователя.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">IDDEID </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – дополнительное поле связи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">IdZShert </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – поле связи с таблицей </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ShertsBM</span><span style="font-size: 12pt; font-family: 'Times New Roman';">;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">IDRecBase </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – поле ID таблицы </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_</span><span style="font-size: 12pt; font-family: 'Times New Roman';">0 если есть ссылка;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ZHeight </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – высота записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ZPic</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> – (blob) – изображение записи из таблицы </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_0</span><span style="font-size: 12pt; font-family: 'Times New Roman';">; </span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ZNameTopic </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[180]) – строка описания из таблицы </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_0;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ZAbout </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (memo) – дополнительное описание записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ZIcon</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> – (blob) – икона файла, если есть связь с файлом;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ZHFile </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[180]) – полное имя файла;</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">DDEMAIN</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: определяются дополнительные связи с другими базами (в будущем).</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">IDMAIN </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – ID в таблице </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_0</span><span style="font-size: 12pt; font-family: 'Times New Roman';">;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">IDBACK </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – Id поля в связанной базе;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">BASEBACK </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – Id связанной базы;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">NAMEBase </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[15]) – имя связанной базы;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">FORMDDE </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[50]) – форма связи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">COMPDDE </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[50]) – компонент связи;</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">DIAGN_TMP</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: определяет список протоколов для определенной записи из </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_0</span><span style="font-size: 12pt; font-family: 'Times New Roman';">;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">COU </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – порядковый номер записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID_DIGNO </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – поле </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> из таблицы </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_0;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">IDTMP </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – идентификатор протокола;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">CAPTION </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[]) – описание протокола;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">DATETMP </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – дата создания протокола;</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ExtFile</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: определяет записи рекламы.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">FCOU </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – порядковый номер записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">FLINC </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – не использую;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">FFILE </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (blob) – рисунок рекламы;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">FAddr </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (memo) – интернет ссылка;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">FAbout</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> – (memo) – описание;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">FLevel </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – уровень рисунка;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">FEnable</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> – (bool) – активность записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">FDATEREG</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> – (DateTime) – время регистрации записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">FDATESTART</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> – (DateTime) – время начала рекламы;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">FDATESTOP</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> – (DateTime) – время окончания рекламы;</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID_Key</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: определение идентификации базы данных;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">KEYFD </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[10]) – номер базы данных;</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">statexe</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: записи статистики открытия файлов;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">IDK </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – ID из таблицы </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_0;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">COU </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – число доступов к файлу (обычно равно 1) ;</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> LINKTMP</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: ссылку на систему расширения записей таблицы </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_0</span><span style="font-size: 12pt; font-family: 'Times New Roman';">;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">COU </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – порядковый номер записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">IDTMP - </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(int) – идентификатор шаблона расширения;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">CAPTION- </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(str[40]) – описание расширения;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">LCAPTION – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(memo) – подробное описание расширения;</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">MAPLAND</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: определяет список графических карт, для описания информации в базе данных;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">COU </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – порядковый номер записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">IDDDE </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – дополнительное поле связи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">CAPM </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (str[80]) – описание графического представления;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">FLNAME </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (blob) – графический файл;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">LEFTM </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – левая координата карты;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">TOPM </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – верхняя координата карты;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">HEIGHM </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – высота карты;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">WIDTHM </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – ширина карты;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ACTIV</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> – (bool) – активность карты;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Pers </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – не использую;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">PersTime</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> – (DateTime) – не использую;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">OBJ – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(мемо) – список объектов карты</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">MAPS</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: сохранение расположения объектов на графической карте.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">COU </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – порядковый номер записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">MAP</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> – (memo) – параметры расположения объектов;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Activ</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> – (bool) – запись доступна для сохранения;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Pers </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – не использую;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">PersTime</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> – (DateTime) - не использую;</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">OBJ</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: не используется.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">COU</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">MAP</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Activ</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Pers</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">PersTime</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ShertsBM</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: закладки пользователя.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Usr </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – ID пользователя из таблицы </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Base_Usr;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">DDEID </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – дополнительное поле связи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Cou </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – порядковый номер записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Activ</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> - (bool)- активная страница, из группы страниц;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">TextSh </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (memo) – описание страницы;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">TextHt </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – высота поля </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">TextSh;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Col1Wh </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – ширина колонки №1;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Col2Wh </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – ширина колонки №2;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Col3Wh </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – ширина колонки №3;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Col4Wh </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – ширина колонки №4;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">Col5Wh </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – ширина колонки №5;</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">BASE_SCHR</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: группа планов.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">DDEID </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – дополнительное поле связи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">COU </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – порядковый номер записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">VIS</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> - (bool)- видимость группы планов;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">CAPTION</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> – (str[200]) – название группы;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">PARAMS - (Blob) - параметры плана</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">BASE_SCHR</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: разделы из группы плана.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ID – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">DDEID </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – дополнительное поле связи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">COU </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – порядковый номер записи;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">IDSCHR </span><span style="font-size: 12pt; font-family: 'Times New Roman';">– (int) – поле связи с таблицей </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">BASE_SCHR</span><span style="font-size: 12pt; font-family: 'Times New Roman';">;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">CAPTION</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> – (str[200]) – название плана;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">ICONPLRS</span><span style="font-size: 12pt; font-family: 'Times New Roman';"> – (blob) – рисунок, представляющий план (не используется).</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">PARAMS - (Blob) - параметры ресурса плана</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">EVENTS</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: события планов.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">ID</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">IDSCHR - (int) - принадлежность к плану </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">BASE_SCHR.ID</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">IDSCHRS - (str[255]) – не использую</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">IDMAIN</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(int) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">ParentID</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(int) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Type</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(int) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Start</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(datetime) -начать</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Finish</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(datetime) -закончить</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Options</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(int) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Caption</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(str[255]) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">RecurrenceIndex</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(int) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">RecurrenceInfo</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(memo) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">ResourceID</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(memo) - принадлежность к ресурсам плана</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Location</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(str[255]) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Message</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(blob) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">ReminderDate</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(datetime) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">ReminderMinutes</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(int) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">State</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(int) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">LabelColor</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(int) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">ActualStart</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(datetime) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">ActualFinish</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(datetime) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">SyncID</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(str[255]) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">SportID</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(ind) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">ReminderResources</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(memo) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">TaskComplete</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(int) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">TaskIndex</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(int) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">TaskLinks</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(blob) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">TaskStatus</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(int) -</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">links - (str[255]) - связь с записями в основной таблице</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">jzresources</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: страница задач.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">ID</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(identy) – ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">DDEID - (int) - </span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">SNUM - (int) - </span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">COU- (int) -порядковый номер.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">FNAME</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> – </span><span style="font-size: 12pt; font-family: 'Times New Roman';">(str[100]) - название страницы.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">VIS - (bool) - видна ли страница.</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">PARAMS - (blob) - параметры задачи</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; margin: 20px 0px 5px 0px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Таблица </span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;">jzevents</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Назначение: задачи.</span></p>
+<p style="text-indent: 47px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">ID - (int) - ключевое поле;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">EventID - (str) - ;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">COU - (int) - порядковый номер;</span></p>
+<p style="text-indent: 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">ResourceID - (int) - принадлежность к странице;</span></p>
+<p style="margin: 0px 0px 0px 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Subject - (str) - в зависимости от;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Location - (str) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">StartDate - (datetime) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">StartTime - (str) - ;</span></p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 48px;"><table style="border:none;border-spacing:0px;padding:0px;line-height: normal;"><tr style="vertical-align:baseline"><td style="border:none;padding:0;width:94px"><span style="font-size: 12pt; font-family: 'Times New Roman';">EndDate</span></td><td style="border:none;padding:0"><span style="font-size: 12pt; font-family: 'Times New Roman';">- (datetime) - ;</span></td></tr></table></div><p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">EndTime - (str) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Completiondate</span><span style="font-size: 12pt; font-family: 'Times New Roman'; font-weight: bold;"> </span><span style="font-size: 12pt; font-family: 'Times New Roman';">- (datetime) - когда реально закончилась ;</span></p>
+<p style="margin: 0px 0px 0px 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">DueDate &nbsp; &nbsp; &nbsp; &nbsp;- (datetime) - with which to link the Todo Item's due date;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Private - (bool) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">CreatedBy - (str) - ;</span></p>
+<p style="margin: 0px 0px 0px 47px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">CreatedOn - (datetime) - когда создана задача;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">OwnedBy - (str) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">PercentComplete - (int) - Процент исполнения;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Status - (str) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">EventTypeName - (str) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Contact - (str) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">BackColor - (int) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">FontColor - (int) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">FontStyle - (str) - ;</span></p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 48px;"><table style="border:none;border-spacing:0px;padding:0px;line-height: normal;"><tr style="vertical-align:baseline"><td style="border:none;padding:0;width:94px"><span style="font-size: 12pt; font-family: 'Times New Roman';">FontSize</span></td><td style="border:none;padding:0"><span style="font-size: 12pt; font-family: 'Times New Roman';">- (int) - ;</span></td></tr></table></div><p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Priority - (str) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Notes - (memo) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">IconIndex - (int) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">EventKind - (int) - ;</span></p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 48px;"><table style="border:none;border-spacing:0px;padding:0px;line-height: normal;"><tr style="vertical-align:baseline"><td style="border:none;padding:0;width:94px"><span style="font-size: 12pt; font-family: 'Times New Roman';">AlarmFileName</span></td><td style="border:none;padding:0"><span style="font-size: 12pt; font-family: 'Times New Roman';">- (str) - ;</span></td></tr></table></div><p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">AlarmSet - (int) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Done - (bool) - реально закончилась;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">AlarmMsg - (memo) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">AlarmLeadIndex - (int) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Reminder - (ind) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">ReminderTime - (int) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">ReminderDate - (datetime) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">ShowTimeAs - (str) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Category - (str) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">AllDay - (bool) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">RecurrenceID - (int) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">ExceptionFields - (memo) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">ShareID - (str) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">Attachments - (memo) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">RunFileName - (str) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">About - (memo) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">AboutR - (blob) - ;</span></p>
+<p style="text-indent: -94px; margin: 0px 0px 0px 142px;"><span style="font-size: 12pt; font-family: 'Times New Roman';">ResourceIDS - (memo) - ;</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+
+<!--ZOOMSTOP-->
+</div></div>
+<script type="text/javascript">
+
+var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+if( document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh" )
+{
+ if (document.all) setTimeout(function() {nsrInit();},20); 
+    else nsrInit();
+ } 
+
+
+</script>
+</body>
+</html>
