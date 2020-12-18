@@ -3,7 +3,7 @@ hr { color: #000000}
 body, table, tr, th /* Normal */
 {
  font-size: 10pt;
- font-family: Arial;
+ font-family: Arial,Helvetica,sans-serif;
  font-style: normal;
  font-weight: normal;
  color: #000000;
@@ -31,7 +31,7 @@ span.f_Notes /* Notes */
 {
 }
 /* Paragraph styles */
-p /* Normal */
+p, p.p_Normal, div.p_Normal /* Normal */
 {
  text-align: left;
  text-indent: 0px;
@@ -40,10 +40,14 @@ p /* Normal */
 }
 .p_CodeExample /* Code Example */
 {
+ font-size: 8pt;
+ line-height: 1.0;
  white-space: nowrap;
+ page-break-inside: avoid;
 }
 .p_Comment /* Comment */
 {
+ font-size: 10pt;
 }
 .p_Heading1 /* Heading1 */
 {
@@ -56,9 +60,11 @@ p /* Normal */
 }
 .p_ImageCaption /* Image Caption */
 {
+ font-size: 8pt;
 }
 .p_Notes /* Notes */
 {
+ font-size: 10pt;
 }
 
 
@@ -84,3 +90,24 @@ p /* Normal */
   color: #777;
   box-shadow: 5px 5px 5px #888;
 }
+
+a.dropdown-toggle /* dropdown toggle caption */
+{
+  cursor: pointer;
+}
+a.inline-toggle /* inline toggle caption */
+{
+  cursor: pointer;
+}
+img.dropdown-toggle-icon /* toggle icon */
+{
+  cursor: pointer;
+}
+/* CSS for responsive image maps */
+
+.hmImageMap a.hmHotspotRect { display:block; position:absolute; border: 1px solid transparent; background:#000; opacity:0.01; filter:alpha(opacity=1)  }
+.hmImageMap a.hmHotspotEllipse { display:block; position:absolute; border-radius:50%; border: 1px solid transparent; background:#000; opacity:0.01; filter:alpha(opacity=1) }
+.hmImageMap:hover a.hmHotspotRect {opacity:0.3; filter:alpha(opacity=30); }
+.hmImageMap:hover a.hmHotspotEllipse { opacity:0.3; filter:alpha(opacity=30); }
+a.hmHotspotRect:hover { border:1px solid #000; background:#FFF; opacity:0.3; filter:alpha(opacity=30) }
+a.hmHotspotEllipse:hover { border:1px solid #000; background:#FFF; opacity:0.3; filter:alpha(opacity=30) }

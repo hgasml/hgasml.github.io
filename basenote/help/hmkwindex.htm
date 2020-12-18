@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html><head>
+   <title>Личный Органайзер</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />   
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+   <!-- This line includes the general project style sheet (not required) -->
+   <link type="text/css" href="default.css" rel="stylesheet" />
+
+      
+          
+   <style type="text/css">
+       body {  }
+       #idx          { margin: 0; padding: 0; }     /* div tag that wraps the keyword index */
+       #idx a        { font-color: #000; text-decoration: none; }  /* all links in index appear as text */
+
+       #idx p             { margin: 2px; }       /* keywords and secondary keywords */
+       #idx p.idxkeyword2 { margin-left: 20px }  /* indentation for secondary keywords */
+
+       table.idxtable { background: #F4F4F4;
+                        border: 1px solid #000000;
+                        border-collapse: collapse;
+                        -moz-box-shadow: 2px 2px 2px #B0B0B0;
+                        -webkit-box-shadow: 2px 2px 2px #B0B0B0;
+                        box-shadow: 2px 2px 2px #B0B0B0;
+                        filter: progid:DXImageTransform.Microsoft.Shadow(color=B0B0B0, Direction=135, Strength=4); }
+       td.idxtable    { background: #F4F4F4; }
+
+       /* font definitions for keyword section, keywords and popup links */
+       .idxsection  { font-family: Arial,Helvetica; font-weight: bold; font-size: 14pt; color: #000000; text-decoration: none;
+                      margin-top: 15px; margin-bottom: 15px; }
+       .idxkeyword  { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #000000; text-decoration: none; }
+       .idxkeyword2 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #000000; text-decoration: none; }
+       .idxlink     { font-family: Arial,Helvetica; font-weight: normal; font-size: 9pt; color: #000000; text-decoration: none; }
+
+   </style>
+      
+
+   <script type="text/javascript" src="jquery.js"></script>
+   <script type="text/javascript" src="helpman_settings.js"></script>
+   <script type="text/javascript" src="hmcontextids.js"></script>
+</head>
+<body>
+   
+   
+  <script type="text/javascript">
+
+  function hmInitHideLinks(cssCode) {
+  	var styleElement = document.createElement("style");
+  	styleElement.type = "text/css";
+  	if (styleElement.styleSheet) {
+    	styleElement.styleSheet.cssText = cssCode;
+  	}
+  	else {
+    	styleElement.appendChild(document.createTextNode(cssCode));
+  	}
+  	document.getElementsByTagName("head")[0].appendChild(styleElement);
+  }
+
+  hmInitHideLinks("#idx div { display: none }");
+
+  var currentdiv = null;
+  var canhidelinks = true;
+
+  function hmshowLinks(divID) {
+    var thisdiv = document.getElementById(divID);
+    canhidelinks = true;
+    hmhideLinks();
+    if (thisdiv) {
+      currentdiv = thisdiv;
+      $(currentdiv).show();
+      $(currentdiv).mouseover(hmdivMouseOver).mouseout(hmdivMouseOut);
+      $(document).mouseup(hmhideLinks);
+    }
+  }
+  function hmdivMouseOver() { canhidelinks = false; };
+  function hmdivMouseOut() { canhidelinks = true; };
+  function hmhideLinks() {
+    if (canhidelinks) {
+      if (currentdiv) {
+        $(currentdiv).hide();
+        $(currentdiv).unbind("onmouseover", "onmouseout");
+      }
+      currentdiv = null;
+      $(document).unbind("onmouseup");
+    }
+  }
+</script>
+<div id="idx" style="margin:0;padding:0;border:none">
+<a name="(" id="("></a><p class="idxsection">- ( -</p>
+<p class="idxkeyword"><a href="1850.htm" target="hmcontent"><span class="idxkeyword">(int)</span></a></p>
+<p class="idxkeyword"><a href="1850.htm" target="hmcontent"><span class="idxkeyword">(str)</span></a></p>
+<a name="Z" id="Z"></a><p class="idxsection">- Z -</p>
+<p class="idxkeyword"><a href="400.htm" target="hmcontent"><span class="idxkeyword">Благодарности</span></a></p>
+<p class="idxkeyword"><a href="2450.htm" target="hmcontent"><span class="idxkeyword">Вид отображения Описания и Документов</span></a></p>
+<p class="idxkeyword"><a href="50.htm" target="hmcontent"><span class="idxkeyword">возможности</span></a></p>
+<p class="idxkeyword"><a href="1550.htm" target="hmcontent"><span class="idxkeyword">Добавление (редактирование) информационного ресурса</span></a></p>
+<p class="idxkeyword"><a href="60.htm" target="hmcontent"><span class="idxkeyword">Достоинства</span></a></p>
+<p class="idxkeyword"><a href="350.htm" target="hmcontent"><span class="idxkeyword">История изменений</span></a></p>
+<p class="idxkeyword"><a href="500.htm" target="hmcontent"><span class="idxkeyword">Как работать с программой</span></a></p>
+<p class="idxkeyword"><a href="2500.htm" target="hmcontent"><span class="idxkeyword">Лицензии</span></a></p>
+<p class="idxkeyword"><a href="1450.htm" target="hmcontent"><span class="idxkeyword">Меню &quot;?&quot;</span></a></p>
+<p class="idxkeyword"><a href="1250.htm" target="hmcontent"><span class="idxkeyword">Меню &quot;Отчеты&quot;</span></a></p>
+<p class="idxkeyword"><a href="1150.htm" target="hmcontent"><span class="idxkeyword">Меню &quot;Поиск&quot;</span></a></p>
+<p class="idxkeyword"><a href="1200.htm" target="hmcontent"><span class="idxkeyword">Меню &quot;Просмотр&quot;</span></a></p>
+<p class="idxkeyword"><a href="1400.htm" target="hmcontent"><span class="idxkeyword">Меню &quot;Редактор базы&quot;</span></a></p>
+<p class="idxkeyword"><a href="1100.htm" target="hmcontent"><span class="idxkeyword">Меню &quot;Редактор данных&quot;</span></a></p>
+<p class="idxkeyword"><a href="1300.htm" target="hmcontent"><span class="idxkeyword">Меню &quot;Сервис&quot;</span></a></p>
+<p class="idxkeyword"><a href="1050.htm" target="hmcontent"><span class="idxkeyword">Меню &quot;Файл&quot;</span></a></p>
+<p class="idxkeyword"><a href="1600.htm" target="hmcontent"><span class="idxkeyword">Модель программы</span></a></p>
+<p class="idxkeyword"><a href="100.htm" target="hmcontent"><span class="idxkeyword">назначение</span></a></p>
+<p class="idxkeyword"><a href="200.htm" target="hmcontent"><span class="idxkeyword">Обзор возможностей</span></a></p>
+<p class="idxkeyword"><a href="2150.htm" target="hmcontent"><span class="idxkeyword">Обновление до новой версии</span></a></p>
+<p class="idxkeyword"><a href="150.htm" target="hmcontent"><span class="idxkeyword">Общие сведения</span></a></p>
+<p class="idxkeyword"><a href="2600.htm" target="hmcontent"><span class="idxkeyword">Оплата</span></a></p>
+<p class="idxkeyword"><a href="1700.htm" target="hmcontent"><span class="idxkeyword">Планирование</span></a></p>
+<p class="idxkeyword"><a href="900.htm" target="hmcontent"><span class="idxkeyword">Поиск информации</span></a></p>
+<p class="idxkeyword"><a href="100.htm" target="hmcontent"><span class="idxkeyword">приглашение</span></a></p>
+<p class="idxkeyword"><a href="550.htm" target="hmcontent"><span class="idxkeyword">Просмотр данных</span></a></p>
+<p class="idxkeyword"><a href="800.htm" target="hmcontent"><span class="idxkeyword">Просмотр данных - Владелец</span></a></p>
+<p class="idxkeyword"><a href="700.htm" target="hmcontent"><span class="idxkeyword">Просмотр данных - Рубрики</span></a></p>
+<p class="idxkeyword"><a href="650.htm" target="hmcontent"><span class="idxkeyword">Просмотр данных Каталог</span></a></p>
+<p class="idxkeyword"><a href="750.htm" target="hmcontent"><span class="idxkeyword">Просмотр данных -Организация</span></a></p>
+<p class="idxkeyword"><a href="600.htm" target="hmcontent"><span class="idxkeyword">Просмотр данных Список</span></a></p>
+<p class="idxkeyword"><a href="801.htm" target="hmcontent"><span class="idxkeyword">Просмотр данных Хранение</span></a></p>
+<p class="idxkeyword"><a href="850.htm" target="hmcontent"><span class="idxkeyword">Расширение информации</span></a></p>
+<p class="idxkeyword"><a href="1650.htm" target="hmcontent"><span class="idxkeyword">Редактирование описания информации</span></a></p>
+<p class="idxkeyword"><a href="1500.htm" target="hmcontent"><span class="idxkeyword">Редактирование справочников</span></a></p>
+<p class="idxkeyword"><a href="950.htm" target="hmcontent"><span class="idxkeyword">С чего начать</span></a></p>
+<p class="idxkeyword"><a href="250.htm" target="hmcontent"><span class="idxkeyword">Системные требования и установка</span></a></p>
+<p class="idxkeyword"><a href="450.htm" target="hmcontent"><span class="idxkeyword">Совместимость с 2000 годом</span></a></p>
+<p class="idxkeyword"><a href="551.htm" target="hmcontent"><span class="idxkeyword">Таблица</span></a></p>
+<p class="idxkeyword"><a href="2200.htm" target="hmcontent"><span class="idxkeyword">Техническая поддержка</span></a></p>
+<p class="idxkeyword"><a href="2250.htm" target="hmcontent"><span class="idxkeyword">Управление задачами</span></a></p>
+<p class="idxkeyword"><a href="50.htm" target="hmcontent"><span class="idxkeyword">характеристики</span></a></p>
+<p class="idxkeyword"><a href="300.htm" target="hmcontent"><span class="idxkeyword">Что нового в этой версии?</span></a></p>
+</div>
+
+   
+</body>
+</html>
