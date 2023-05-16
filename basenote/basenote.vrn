@@ -6,7 +6,6 @@ EditLib.DLL
 RCLIB.DLL
 codlib.dll
 NewVer.exe
-Transport.exe
 
 [AutoRUN.exe]
 Description~0=Автозапуск. AutoRUN.bat - редактор.
@@ -53,7 +52,7 @@ History~1=Текущая версия
 
 [NewVer.exe]
 Description~0=Обновление базы данных
-Ver~0=0.0.0.2
+Ver~0=0.0.1.2
 Files~0=3
 File1~0=NewVer\NewVer.bdf
 File1~1=NewVer\NewVer.exe
