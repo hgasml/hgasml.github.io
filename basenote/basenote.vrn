@@ -4,57 +4,59 @@ BaseNote.exe
 DirComp.exe
 EditLib.DLL
 RCLIB.DLL
+codlib.dll
 NewVer.exe
+Transport.exe
 
 [AutoRUN.exe]
-Description~0=РђРІС‚РѕР·Р°РїСѓСЃРє
+Description~0=Автозапуск. AutoRUN-Edit.bat - редактор.
 Ver~0=1.0.0.1
 Files~0=1
 File1~0=AutoRUN.exe
-History~0=  Р’РµСЂСЃРёСЏ 1.0.0.1
-History~1=РўРµРєСѓС‰Р°СЏ РІРµСЂСЃРёСЏ
-History~2=  Р’РµСЂСЃРёСЏ 0.0.0.1
-History~3=РќР°С‡Р°Р»СЊРЅР°СЏ РІРµСЂСЃРёСЏ
+History~0=  Версия 1.0.0.1
+History~1=Текущая версия
+History~2=  Версия 0.0.0.1
+History~3=Начальная версия
 
 [BaseNote.exe]
-Description~0=Р¤Р°Р№Р» РїСЂРѕРіСЂР°РјРјС‹ 
-Ver~0=2.0.2.18
+Description~0=Файл программы 
+Ver~0=2.0.5.620
 Files~0=2
 File1~0=BaseNote.exe
 File2~0=codlib.dll
-History~0=  Р’РµСЂСЃРёСЏ 2.0.2.18
-History~1=РўРµРєСѓС‰Р°СЏ РІРµСЂСЃРёСЏ
+History~0=  Версия 2.0.5.726
+History~1=Текущая версия
 
 [DirComp.exe]
-Description~0=Р¤Р°Р№Р» РїСЂРѕРіСЂР°РјРјС‹
+Description~0=Файл программы
 Ver~0=1.0.0.1
 Files~0=1
 File1~0=DirComp.exe
-History~0=  Р’РµСЂСЃРёСЏ 1.0.0.1
-History~1=РўРµРєСѓС‰Р°СЏ РІРµСЂСЃРёСЏ
+History~0=  Версия 1.0.0.1
+History~1=Текущая версия
 
 [EditLib.DLL]
-Description~0=Р¤Р°Р№Р» РїСЂРѕРіСЂР°РјРјС‹
+Description~0=Файл программы
 Ver~0=1.0.5.3
 Files~0=1
 File1~0=EditLib.DLL
-History~0=  Р’РµСЂСЃРёСЏ 1.0.5.3
-History~1=РўРµРєСѓС‰Р°СЏ РІРµСЂСЃРёСЏ
+History~0=  Версия 1.0.5.3
+History~1=Текущая версия
 
 [RCLIB.DLL]
-Description~0=Р¤Р°Р№Р» РїСЂРѕРіСЂР°РјРјС‹
-Ver~0=1.0.1.2
+Description~0=Файл программы
+Ver~0=1.0.3.9
 Files~0=1
 File1~0=DirComp.exe
-History~0=  Р’РµСЂСЃРёСЏ 1.0.1.2
-History~1=РўРµРєСѓС‰Р°СЏ РІРµСЂСЃРёСЏ
+History~0=  Версия 1.0.1.2
+History~1=Текущая версия
 
 [NewVer.exe]
-Description~0=РћР±РЅРѕРІР»РµРЅРёРµ Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+Description~0=Обновление базы данных
 Ver~0=0.0.0.2
 Files~0=3
 File1~0=NewVer\NewVer.bdf
 File1~1=NewVer\NewVer.exe
 File1~2=NewVer\Transport.exe
-History~0=  Р’РµСЂСЃРёСЏ 0.0.0.2
-History~1=РўРµРєСѓС‰Р°СЏ РІРµСЂСЃРёСЏ
+History~0=  Версия 0.0.0.2
+History~1=Текущая версия
