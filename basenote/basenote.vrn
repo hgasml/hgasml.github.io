@@ -9,7 +9,7 @@ NewVer.exe
 Transport.exe
 
 [AutoRUN.exe]
-Description~0=Автозапуск. AutoRUN-Edit.bat - редактор.
+Description~0=Автозапуск. AutoRUN.bat - редактор.
 Ver~0=1.0.0.1
 Files~0=1
 File1~0=AutoRUN.exe
